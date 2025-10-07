@@ -4,7 +4,7 @@ End-to-end mini data pipeline that fetches restaurant data from the Yelp Fusion 
 
 ---
 
-### What you'll build
+### Steps
 
 - **Ingestion**: Python script hits Yelp `/businesses/search` and upserts into MongoDB.
 - **Queries**: Reusable MongoDB aggregation pipelines for common analyses.
@@ -104,7 +104,7 @@ This analysis helps identify which restaurant categories perform best in each ci
 
 ---
 
-### Stretch ideas
+### Future work
 
 - Add a Streamlit dashboard to explore categories and cities.
 - Implement geospatial aggregation (density by location).
