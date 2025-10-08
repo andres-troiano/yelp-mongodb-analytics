@@ -20,6 +20,8 @@ dist/
 .env
 *.env
 .env.*
+# allow example env file
+!*.env.example
 
 # Jupyter
 .ipynb_checkpoints/
