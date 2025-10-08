@@ -15,7 +15,7 @@ End-to-end mini data pipeline that fetches restaurant data from the Yelp Fusion 
 ### Prerequisites
 
 - Python 3.10+
-- Yelp Fusion API key
+- Yelp Fusion API key (create one at [Yelp Developers – Manage App](https://www.yelp.com/developers/v3/manage_app); see [Authentication docs](https://www.yelp.com/developers/documentation/v3/authentication))
 - MongoDB Atlas cluster (connection string)
 
 ---
