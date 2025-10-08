@@ -57,6 +57,23 @@ cp .env.example .env
 
 ---
 
+### MongoDB Atlas setup
+
+If you don't have a cluster yet:
+
+- Create an account and free cluster: [MongoDB Atlas](https://www.mongodb.com/atlas/database)
+- Create a database user (username/password) under Database Access
+- Allow your IP (0.0.0.0/0 for testing) under Network Access
+- Get your connection string from "Connect" → "Drivers" (looks like `mongodb+srv://...`)
+- Put it in `.env` as `MONGODB_URI`
+
+Defaults used by this project:
+
+- `DB_NAME=yelp_analytics`
+- `COLLECTION_NAME=businesses`
+
+---
+
 ### Quickstart
 
 1) Ingest sample data (50 restaurants per city)
